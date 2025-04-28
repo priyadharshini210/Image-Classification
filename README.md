@@ -103,8 +103,8 @@ def train_model(model, train_loader, num_epochs=3):
 
 
 ### New Sample Data Prediction
+![image](https://github.com/user-attachments/assets/8120b074-d032-453c-b6ee-1857237e593c)
 
-![image](https://github.com/user-attachments/assets/9896de84-11da-45d2-a347-b3c8c795b018)
 
 
 ## RESULT
