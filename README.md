@@ -33,8 +33,8 @@ Test the model on unseen data, compute accuracy, and analyze results using a con
 Save the trained model, visualize predictions, and integrate it into an application if needed.
 ## PROGRAM
 
-### Name:DHARANYA N
-### Register Number:212223230044
+### Name:PRIYADHARSHINI.P
+### Register Number:212223240128
 ```python
 class CNNClassifier(nn.Module):
     def __init__(self):
@@ -80,31 +80,29 @@ def train_model(model, train_loader, num_epochs=3):
             optimizer.step()
             running_loss += loss.item()
 
-        print('Name: Dharanya')
-        print('Register Number: 212223230044')
+        print('Name: Priyadharshini.P')
+        print('Register Number: 212223240128')
         print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}')
 
 ```
 
 ## OUTPUT
 ### Training Loss per Epoch
-
-![image](https://github.com/user-attachments/assets/f9cb0588-d11d-40eb-b9f9-8dee1c058d9e)
+![image](https://github.com/user-attachments/assets/fd786583-0102-4333-8a73-f786320d52eb)
 
 ### Confusion Matrix
+![image](https://github.com/user-attachments/assets/84743587-d491-4905-9add-e314bc1addee)
 
-![image](https://github.com/user-attachments/assets/46333e01-dca7-4ef7-a251-4452b61998c3)
 
 
 ### Classification Report
+![image](https://github.com/user-attachments/assets/0ef1c007-a5a9-4b75-b848-eadc88b791a3)
 
-![image](https://github.com/user-attachments/assets/a9b9135d-2c9f-4b02-8b74-6889d643518e)
 
 
 
 ### New Sample Data Prediction
-![image](https://github.com/user-attachments/assets/8120b074-d032-453c-b6ee-1857237e593c)
-
+![image](https://github.com/user-attachments/assets/d4166861-d6ec-4b41-91aa-0034c2b2b9a6)
 
 
 ## RESULT
